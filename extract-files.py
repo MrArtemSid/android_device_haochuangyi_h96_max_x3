@@ -10,11 +10,11 @@ from extract_utils.main import (
 )
 
 module = ExtractUtilsModule(
-    'radxa0',
-    'radxa',
+    'h96_max_x3',
+    'haochuangyi',
     skip_main_proprietary_file=True,
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(module, '../amlogic/g12-common', module.vendor)
+    utils = ExtractUtils.device_with_common(module, '../amlogic/sm1-common', module.vendor)
     utils.run()

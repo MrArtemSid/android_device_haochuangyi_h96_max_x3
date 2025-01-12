@@ -6,7 +6,7 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    RadxaZeroBluetoothOverlay \
+    H96MaxX3BluetoothOverlay \
     libbt-vendor
 
 ## Bluetooth firmware
@@ -20,6 +20,9 @@ PRODUCT_HOST_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
+## Platform
+TARGET_AMLOGIC_SOC := sm1
+
 ## TEE
 TARGET_HAS_TEE := false
 
@@ -27,4 +30,4 @@ TARGET_HAS_TEE := false
 include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
 
 ## Inherit from the common tree product makefile
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
+$(call inherit-product, device/amlogic/sm1-common/sm1.mk)
