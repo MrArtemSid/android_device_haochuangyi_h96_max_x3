@@ -65,6 +65,7 @@ else
 endif
 	$(hide) $(call aml-copy-install-file, $(PRODUCT_OUT)/logo.img)
 	$(hide) $(call aml-copy-install-file, $(FACTORY_PATH)/aml_sdc_burn.ini)
+	$(hide) $(call aml-copy-install-file, $(FACTORY_PATH)/keys.conf)
 	$(hide) $(call aml-copy-install-file, $(FACTORY_PATH)/image_install.cfg, image.cfg)
 	$(hide) $(call aml-copy-install-file, $(FACTORY_PATH)/platform.conf)
 	$(hide) $(call aml-copy-install-file, $(PRODUCT_OUT)/boot.img)
