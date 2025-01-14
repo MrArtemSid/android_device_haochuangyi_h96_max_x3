@@ -18,7 +18,8 @@ PRODUCT_HOST_PACKAGES += \
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
+    $(LOCAL_PATH)/configs/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
 ## Platform
 TARGET_AMLOGIC_SOC := sm1
