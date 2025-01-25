@@ -12,4 +12,3 @@ service OpenVFDService /vendor/bin/OpenVFDService
     class main
     user root
     group root
-    seclabel u:r:system_server:s0
