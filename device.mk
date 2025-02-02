@@ -22,9 +22,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/openvfd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/openvfd.rc \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
-## Platform
-TARGET_AMLOGIC_SOC := sm1
-
 ## TEE
 TARGET_HAS_TEE := false
 
@@ -36,7 +33,7 @@ PRODUCT_PACKAGES += \
     OpenVFDService
 
 ## Inherit from the common tree product makefile
-$(call inherit-product, device/amlogic/sm1-common/sm1.mk)
+$(call inherit-product, device/amlogic/g12-common/g12.mk)
 
 ## Inherit from the proprietary files makefile
 $(call inherit-product, vendor/amlogic/h96_max_x3/h96_max_x3-vendor.mk)

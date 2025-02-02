@@ -15,7 +15,7 @@ fi
 set -e
 
 export DEVICE=h96_max_x3
-export DEVICE_COMMON=sm1-common
+export DEVICE_COMMON=g12-common
 export VENDOR=amlogic
 export VENDOR_BRAND=haochuangyi
 export VENDOR_COMMON=h96_max_x3
