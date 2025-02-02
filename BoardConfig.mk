@@ -20,7 +20,7 @@ TARGET_DTB_NAME := sm1_s905y3_h96_max_x3
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
-    dhd-driver/bcmdhd.101.10.361.x \
+    dhd-driver/bcmdhd.101.10.591.x \
     openvfd/driver:kbuild
 
 ## Partitions
