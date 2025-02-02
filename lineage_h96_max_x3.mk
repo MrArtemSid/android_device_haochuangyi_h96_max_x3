@@ -17,12 +17,12 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Radxa
-PRODUCT_DEVICE := radxa0
-PRODUCT_MANUFACTURER := radxa
-PRODUCT_MODEL := Radxa Zero
-PRODUCT_NAME := lineage_radxa0
-PRODUCT_SYSTEM_NAME := radxa0
+PRODUCT_BRAND := Haochuangyi
+PRODUCT_DEVICE := h96_max_x3
+PRODUCT_MANUFACTURER := Haochuangyi
+PRODUCT_MODEL := H96 Max X3
+PRODUCT_NAME := lineage_h96_max_x3
+PRODUCT_SYSTEM_NAME := h96_max_x3
 
 PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
 

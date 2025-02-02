@@ -14,10 +14,10 @@ fi
 
 set -e
 
-export DEVICE=radxa0
-export DEVICE_COMMON=g12-common
+export DEVICE=h96_max_x3
+export DEVICE_COMMON=sm1-common
 export VENDOR=amlogic
-export VENDOR_BRAND=radxa
+export VENDOR_BRAND=haochuangyi
 export VENDOR_COMMON=amlogic
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

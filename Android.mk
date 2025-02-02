@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifneq ($(filter radxa0 radxa0_car radxa0_tab, $(TARGET_DEVICE)),)
+ifneq ($(filter h96_max_x3, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(LOCAL_PATH)/factory.mk
 
--include vendor/amlogic/radxa0/firmware.mk
+-include vendor/amlogic/h96_max_x3/firmware.mk
 
 endif
