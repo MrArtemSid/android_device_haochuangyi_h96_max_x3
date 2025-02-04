@@ -1,0 +1,40 @@
+custom_name = amlogic-remote-2
+custom_code = 0xfe01
+release_delay = 80
+
+fn_key_scancode = 0x00
+cursor_left_scancode = 0x51
+cursor_right_scancode = 0x50
+cursor_up_scancode = 0x16
+cursor_down_scancode = 0x1a
+cursor_ok_scancode = 0x13
+key_begin
+        0x4e 2
+        0x0d 3
+        0x0c 4
+        0x4a 5
+        0x09 6
+        0x08 7
+        0x46 8
+        0x05 9
+        0x04 10
+        0x01 11
+        0x4c 139
+        0x18 115
+        0x10 114
+        0x11 102
+        0x50 106
+        0x51 105
+        0x16 103
+        0x1a 108
+        0x13 232
+        0x41 113
+        0x19 158
+        0x40 116
+        0x4b 168
+        0x00 69
+        0x4f 208
+        0x42 14
+        0x43 87
+        0x0f 88
+key_end
